@@ -7,7 +7,7 @@ describe('test duckduckgo search results', () => {
   it('should find the nightmare github link first', function(done) {
 
     this.timeout('15s')
-    nightmare.wait(5000)
+    // nightmare.wait(5000)
     
     nightmare
       .goto('https://duckduckgo.com')
