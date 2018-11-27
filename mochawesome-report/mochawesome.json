@@ -1,79 +1,23 @@
 {
   "stats": {
-    "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2018-11-24T04:24:22.446Z",
-    "end": "2018-11-24T04:24:31.152Z",
-    "duration": 8706,
-    "testsRegistered": 1,
-    "passPercent": 100,
-    "pendingPercent": 0,
+    "start": "2018-11-27T02:13:58.677Z",
+    "end": "2018-11-27T02:13:58.680Z",
+    "duration": 3,
+    "testsRegistered": 0,
+    "passPercent": null,
+    "pendingPercent": null,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
     "passPercentClass": "success",
-    "pendingPercentClass": "danger"
+    "pendingPercentClass": "success"
   },
-  "suites": {
-    "uuid": "bdb0f839-9732-4266-8f76-f621a6111b4b",
-    "title": "",
-    "fullFile": "",
-    "file": "",
-    "beforeHooks": [],
-    "afterHooks": [],
-    "tests": [],
-    "suites": [
-      {
-        "uuid": "ad540b19-8ad3-446b-a3b5-f808e2ecd56e",
-        "title": "test duckduckgo search results",
-        "fullFile": "D:\\Project\\nightmare\\example2_moch.test.js",
-        "file": "\\example2_moch.test.js",
-        "beforeHooks": [],
-        "afterHooks": [],
-        "tests": [
-          {
-            "title": "should find the nightmare github link first",
-            "fullTitle": "test duckduckgo search results should find the nightmare github link first",
-            "timedOut": false,
-            "duration": 8568,
-            "state": "passed",
-            "speed": "slow",
-            "pass": true,
-            "fail": false,
-            "pending": false,
-            "code": "this.timeout('15s')\n    // nightmare.wait(5000)\n    \n    nightmare\n      .goto('https://duckduckgo.com')\n      .type('#search_form_input_homepage', 'github nightmare')\n      .click('#search_button_homepage')\n      .wait('#links .result__a')\n      .evaluate(() => document.querySelector('#links .result__a').href)\n      .end()\n      .then(link => {\n        expect(link).to.equal('https://github.com/segmentio/nightmare')\n        done()\n      })",
-            "err": {},
-            "isRoot": false,
-            "uuid": "7b0bbbd9-3dd2-4456-9a4a-21a3dd8c3260",
-            "isHook": false,
-            "skipped": false
-          }
-        ],
-        "suites": [],
-        "passes": [
-          "7b0bbbd9-3dd2-4456-9a4a-21a3dd8c3260"
-        ],
-        "failures": [],
-        "pending": [],
-        "skipped": [],
-        "duration": 8568,
-        "root": false,
-        "rootEmpty": false,
-        "_timeout": 2000
-      }
-    ],
-    "passes": [],
-    "failures": [],
-    "pending": [],
-    "skipped": [],
-    "duration": 0,
-    "root": true,
-    "rootEmpty": true,
-    "_timeout": 2000
-  },
+  "suites": false,
   "copyrightYear": 2018
 }

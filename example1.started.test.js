@@ -13,4 +13,4 @@ nightmare
   .then(console.log)
   .catch(error => {
     console.error('Search failed:', error)
-  })
+})

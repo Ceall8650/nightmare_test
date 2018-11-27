@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./example2_moch.test --reporter mochawesome",
+    "test": "node ./example1.started.test.js --reporter mochawesome",
     "test-debug": "cross-env DEBUG=nightmare:action* mocha ./example1.test.js --watch"
   },
   "author": "",
